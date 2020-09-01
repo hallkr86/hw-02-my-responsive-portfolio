@@ -37,4 +37,38 @@ h1{
 footer{
     background-color:grey;
     padding: 20px;   
+    text-align: center;
+    color: lightslategray;
 }
+
+#images{
+    color: #0ab69f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 55px;
+    margin-top: 65px;
+}
+
+.form-group{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#contact{
+    color: #0ab69f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 55px;
+    margin-top: 65px;
+}
+
+.btn-primary{
+    box-sizing: border-box;
+    background-color: #0ab69f;
+    display: inline-block
+}
+    
