@@ -1,13 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#background-image{
+    background-image: url(https://files.slack.com/files-pri/T018X4HFZC4-F019TA244FP/ignasi_pattern.png);
+}
+
 .navbar-brand{
     background-color: #0ab69f;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 25px;
+
 }
 
 .navbar{
-    margin-left:10px;
+    margin-left:0px;
 }
 
 .nav-link{
@@ -19,9 +29,13 @@
 }
 
 .container{
-    margin-left: 40px;
+    background-color: white;
+    margin-left: 45px;
     margin-top: 65px;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
+    margin-right: 0px;
+    padding-left: 35px;
+    padding-top: 30px;
 }
 
 h1{
@@ -30,6 +44,11 @@ h1{
     font-weight: bold;
     font-size: 35px;
 }
+
+#first{
+    padding-left: 55px;
+}
+
 #second{
     margin-top: 30px;
 }
@@ -62,7 +81,7 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 35px;
-    margin-left: 55px;
+    margin-left: 25px;
     margin-top: 65px;
 }
 
@@ -71,4 +90,52 @@ footer{
     background-color: #0ab69f;
     display: inline-block
 }
-    
+ 
+#pic{
+    width:250px;
+}
+
+.footer{
+    border-top-color: #0ab69f;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    border-top-style: solid;
+}
+
+.button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #0ab69f;
+}
+
+.container2{
+    background-color: white;
+    margin-left: 45px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-right: 22px;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+#container3{
+    background-color: white;
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 55px;
+    margin-right: 400px;
+    padding-left: 45px;
+    padding-top: -5px;
+    justify-content: space-evenly;
+
+.kpic{
+    size: 25px;
+}
+
+#im2{
+    text-align: left;
+    padding-left: -20px;
+}
