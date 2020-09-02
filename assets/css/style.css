@@ -139,3 +139,30 @@ footer{
     text-align: left;
     padding-left: -20px;
 }
+
+for mobile phones
+@media screen and (max-width: 400px) {
+    .wrapper {
+        width: 100px;
+    }
+}
+
+for tablet
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 400px;
+        .col-s-8 {width:33.33%;}
+        .col-s-2 {width:25%;}
+        .col-md-5 {width:84%;}
+    }
+}
+   
+for desktop
+@media screen and (max-width: 992px) {
+        .wrapper {
+            width: 992px;
+            .col-s-8 {width:33.33%;}
+            .col-s-2 {width:40%;}
+            .col-md-5 {width:84%;}
+        }
+}  
